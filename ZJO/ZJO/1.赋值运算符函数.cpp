@@ -1,6 +1,6 @@
 /*
  * @file   1.赋值运算符函数.cpp
- * @date   2019.2.21.
+ * @date   2019.2.21.'
  * @author GBW
  * @Description: 如下为类型CMyString的声明，请为该类型添加赋值运算符函数。
  
