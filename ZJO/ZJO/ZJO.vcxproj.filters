@@ -18,5 +18,8 @@
     <ClCompile Include="1.赋值运算符函数.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.实现Singleton模式.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
