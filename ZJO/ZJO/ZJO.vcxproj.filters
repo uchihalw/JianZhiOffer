@@ -21,5 +21,8 @@
     <ClCompile Include="2.实现Singleton模式.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3.二维数组中的查找.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
