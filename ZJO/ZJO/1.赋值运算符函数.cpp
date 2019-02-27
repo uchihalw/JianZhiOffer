@@ -48,7 +48,16 @@ private:
 };
 
 
-//version_1
+
+/*
+* @version_1
+
+* @solution:
+
+* @fault:
+在version_1中，在delete释放了实例m_pData的内存.如果此时内存不足导致new char抛出异常，m_pData将是一个空指针。
+一旦赋值运算符函数内部抛出一个异常，CMyString的实例不再保持有效状态，违背了异常安全性原则。
+*/
 CMyString& CMyString::operator=(const CMyString &str)
 {
 	if (this == &str)
@@ -57,19 +66,23 @@ CMyString& CMyString::operator=(const CMyString &str)
 	}
 	delete[] m_pData; 
 	m_pData = NULL;
-	/**
-		在version_1中，在delete释放了实例m_pData的内存.如果此时内存不足导致new char抛出异常，m_pData将是一个空指针。
-		一旦赋值运算符函数内部抛出一个异常，CMyString的实例不再保持有效状态，违背了异常安全性原则。
-	 */
+
 	m_pData = new char[strlen(str.m_pData) + 1];
 	strcpy(m_pData, str.m_pData);
 	return *this;
 }
 
-// version_2
-solution:
+
+	
+/*
+* @version_2
+
+* @solution:
 	1.先用new 分配新内容，再用delete释放已有的内容。
 	2.先创建一个临时实例，再交换临时实例和原来的实例。
+* @fault:
+
+*/
 CMyString& CMyString::operator =(const CMyString& str)
 {
 	if (this != &str)
