@@ -190,7 +190,7 @@ private:
 
 
 
-
+// valatile
 pInstance = new Singleton();
 	1.为Singleton对象分配一片内存
 	2.构造一个Singleton对象，存入已分配的内存区

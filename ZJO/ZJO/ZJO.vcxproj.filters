@@ -27,5 +27,8 @@
     <ClCompile Include="4.替换空格.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="5.从尾到头打印链表.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
