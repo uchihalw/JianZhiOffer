@@ -118,6 +118,7 @@
     <ClCompile Include="3.二维数组中的查找.cpp" />
     <ClCompile Include="4.替换空格.cpp" />
     <ClCompile Include="5.从尾到头打印链表.cpp" />
+    <ClCompile Include="6.重建二叉树.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
