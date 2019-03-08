@@ -1,17 +1,17 @@
 /*
- * @file   7.用两个栈实现队列.cpp
- * @date   2019.3.8.
- * @author GBW
- * @Description: 用两个栈实现一个队列，队列的声明如下。实现它的两个函数appendTail和deleteHead，
-				 分别完成在队列尾部插入结点和队列头部删除结点的功能
- 
- * @Note:
-	 1. queue_1 =  stack_1 + stack_2
-	 2. stack_1: 无论是否为空，只负责元素压入(队列尾部插入结点)
-	 3. stack_2: (队列头部删除结点)
-				 1.为空时，将stack_1中的元素由上至下，依次压入stack_2
-				 2.不为空时，直接从stack_2执行删除操作
- */
+* @file   7.用两个栈实现队列.cpp
+* @date   2019.3.8.
+* @author GBW
+* @Description: 用两个栈实现一个队列，队列的声明如下。实现它的两个函数appendTail和deleteHead，
+分别完成在队列尾部插入结点和队列头部删除结点的功能
+
+* @Note:
+1. queue_1 =  stack_1 + stack_2
+2. stack_1: 无论是否为空，只负责元素压入(队列尾部插入结点)
+3. stack_2: (队列头部删除结点)
+1.为空时，将stack_1中的元素由上至下，依次压入stack_2
+2.不为空时，直接从stack_2执行删除操作
+*/
 
 #include <queue>
 using namespace std;
