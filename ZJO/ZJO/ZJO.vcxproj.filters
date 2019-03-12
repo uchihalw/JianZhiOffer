@@ -36,5 +36,11 @@
     <ClCompile Include="7.用两个栈实现队列.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="0.needDone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8.快速排序.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
