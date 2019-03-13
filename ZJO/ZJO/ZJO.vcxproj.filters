@@ -43,4 +43,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\GBW\Desktop\内部排序.doc" />
+  </ItemGroup>
 </Project>
