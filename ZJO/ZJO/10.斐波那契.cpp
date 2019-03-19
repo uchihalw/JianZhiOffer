@@ -23,7 +23,8 @@
 		return res;
 	}
 
-1. Fibonacci
+1. Fibonacci   0， 1，1，2，3，5，8，13
+// 只是求第n个斐波那契数
 	0.version_0
 	long long Fibonacci(int n)
 	{
@@ -62,18 +63,7 @@
 	[                    ]     [         ]
 	*/
 
-	3.version_3
-	long long Fibonacci(int n)
-	{
-		vector<int> dp(n + 2, 0); // +3是为了防止n=0时候，也正常走流程，不用加判断。
-		dp[0] = 0;
-		dp[1] = 1;
-		for (int i = 2; i <= n; i++)  // index默认从0开始，故n =3的时候，需要计算dp[n]
-		{
-			dp[i] = dp[i - 1] + dp[i - 2];
-		}
-		return dp[n];
-	}
+
 
 2. 青蛙跳台阶，一次可以跳上一级，也可以跳上二级。求跳上一个n级总共有多少种跳法
 如果有1级台阶，有一种跳法
@@ -83,3 +73,32 @@
 	0.第一次跳1级，此时总的跳法数目等于后面剩下的n-1级台阶的跳法数目，即f(n-1)
 	1.第一次跳2级，此时总的跳法数目等于后面剩下的n-2级台阶的跳法数目，即f(n-2)
 因此，n级台阶的不同跳法的总数f(n) = f(n-1) + f(n-2)
+
+
+1，1，2，3，5，8，13
+// n = 3时，不是求斐波那契数列的第3个数，而是求踏台阶有多少种方法
+
+Input : 2
+		Output : 2
+		Explanation : There are two ways to climb to the top.
+		1. 1 step + 1 step
+		2. 2 steps
+
+Input : 3
+	Output : 3
+	Explanation : There are three ways to climb to the top.
+	1. 1 step + 1 step + 1 step
+	2. 1 step + 2 steps
+	3. 2 steps + 1 step
+
+long long Fibonacci(int n)
+{
+		vector<int> dp(n + 3, 0); // +3是为了防止n=0时候，也正常走流程，不用加判断。
+		dp[1] = 1;
+		dp[2] = 2;
+		for (int i = 3; i <= n; i++)  // index默认从0开始，故n =3的时候，需要计算dp[n]
+		{
+			dp[i] = dp[i - 1] + dp[i - 2];
+		}
+		return dp[n];
+}
