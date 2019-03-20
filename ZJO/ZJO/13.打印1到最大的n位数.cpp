@@ -96,3 +96,33 @@ void PrintNumber(char* number)
 		
 	}
 }
+
+2. version_2
+// х╚ееап
+void Print1ToMaxOfNDigits(int n)
+{
+	if (n <= 0)
+		return;
+	char *number = new char[n + 1];
+	number[n] = '\0';
+	for (int i = 0; i < 10; i++)
+	{
+		number[0] = i + '0';
+		Print1ToMaxOfNDigitsRecur(number, n, 0);
+	}
+	delete[] number;
+}
+
+void Print1ToMaxOfNDigitsRecur(char *number, int length, int index)
+{
+	if (index == length-1)
+	{
+		PrintNumber(number);
+		return;
+	}
+	for (int i =0; i<10;i++)
+	{
+		number[index + 1] = i + '0';
+		Print1ToMaxOfNDigitsRecur(number, length, index + 1);
+	}
+}
