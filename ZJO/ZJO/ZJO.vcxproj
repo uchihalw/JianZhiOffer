@@ -115,8 +115,16 @@
   <ItemGroup>
     <ClCompile Include="0.needDone.cpp" />
     <ClCompile Include="1.赋值运算符函数.cpp" />
+    <ClCompile Include="10.斐波那契.cpp" />
+    <ClCompile Include="11.位运算_二进制中1的个数.cpp" />
     <ClCompile Include="12.数值的整数次方.cpp" />
     <ClCompile Include="13.打印1到最大的n位数.cpp" />
+    <ClCompile Include="14.删除链表节点.cpp" />
+    <ClCompile Include="let01_复杂的链表的深度拷贝.cpp" />
+    <ClCompile Include="let01_多个排序链表的合并.cpp" />
+    <ClCompile Include="let01_排序链表的合并.cpp" />
+    <ClCompile Include="let01_求两个链表的交点.cpp" />
+    <ClCompile Include="let01_链表从位置m到n的逆序.cpp" />
     <ClCompile Include="2.实现Singleton模式.cpp" />
     <ClCompile Include="3.二维数组中的查找.cpp" />
     <ClCompile Include="4.替换空格.cpp" />
@@ -124,9 +132,13 @@
     <ClCompile Include="6.重建二叉树.cpp" />
     <ClCompile Include="7.用两个栈实现队列.cpp" />
     <ClCompile Include="8.快速排序.cpp" />
+    <ClCompile Include="9.旋转数组.cpp" />
+    <ClCompile Include="let01_链表划分.cpp" />
+    <ClCompile Include="let01_链表求环.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\GBW\Desktop\内部排序.doc" />
+    <None Include="内部排序.doc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
