@@ -120,6 +120,7 @@
     <ClCompile Include="12.数值的整数次方.cpp" />
     <ClCompile Include="13.打印1到最大的n位数.cpp" />
     <ClCompile Include="14.删除链表节点.cpp" />
+    <ClCompile Include="30.数组中出现次数超过一般的数字.cpp" />
     <ClCompile Include="let01_复杂的链表的深度拷贝.cpp" />
     <ClCompile Include="let01_多个排序链表的合并.cpp" />
     <ClCompile Include="let01_排序链表的合并.cpp" />
@@ -135,6 +136,16 @@
     <ClCompile Include="9.旋转数组.cpp" />
     <ClCompile Include="let01_链表划分.cpp" />
     <ClCompile Include="let01_链表求环.cpp" />
+    <ClCompile Include="let02_使用栈实现队列.cpp" />
+    <ClCompile Include="let02_使用队列实现栈.cpp" />
+    <ClCompile Include="let02_包含min函数的栈.cpp" />
+    <ClCompile Include="let07_anagram分组.cpp" />
+    <ClCompile Include="let07_哈希表.cpp" />
+    <ClCompile Include="let07_无重复字符的最长子串.cpp" />
+    <ClCompile Include="let07_最小窗口子串.cpp" />
+    <ClCompile Include="let07_最长回文串.cpp" />
+    <ClCompile Include="let07_词语模式.cpp" />
+    <ClCompile Include="let07_重复的DNA序列.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\GBW\Desktop\内部排序.doc" />

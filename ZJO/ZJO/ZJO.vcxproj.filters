@@ -81,6 +81,39 @@
     <ClCompile Include="let01_多个排序链表的合并.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="let02_使用队列实现栈.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let02_使用栈实现队列.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let02_包含min函数的栈.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="30.数组中出现次数超过一般的数字.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_anagram分组.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_词语模式.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_哈希表.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_最长回文串.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_无重复字符的最长子串.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_重复的DNA序列.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="let07_最小窗口子串.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\GBW\Desktop\内部排序.doc" />
