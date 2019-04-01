@@ -120,6 +120,7 @@
     <ClCompile Include="12.数值的整数次方.cpp" />
     <ClCompile Include="13.打印1到最大的n位数.cpp" />
     <ClCompile Include="14.删除链表节点.cpp" />
+    <ClCompile Include="21.顺时针打印矩阵.cpp" />
     <ClCompile Include="30.数组中出现次数超过一般的数字.cpp" />
     <ClCompile Include="let01_复杂的链表的深度拷贝.cpp" />
     <ClCompile Include="let01_多个排序链表的合并.cpp" />
