@@ -148,6 +148,7 @@
     <ClCompile Include="let07_最长回文串.cpp" />
     <ClCompile Include="let07_词语模式.cpp" />
     <ClCompile Include="let07_重复的DNA序列.cpp" />
+    <ClCompile Include="other_1_多数组合并.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\GBW\Desktop\内部排序.doc" />
