@@ -123,6 +123,12 @@
     <ClCompile Include="other_1_多数组合并.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="48.不用加减乘除做加法.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="other_2_二叉树的左右视图.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\GBW\Desktop\内部排序.doc" />
